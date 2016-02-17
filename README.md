@@ -1,0 +1,2 @@
+Logika pre informatikov
+========================
