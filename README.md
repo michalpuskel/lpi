@@ -7,3 +7,4 @@ Praktické cvičenia
 ------------------
 
 * [Cvičenie 0](cv00) (inicializácia)
+* [Cvičenie 1](cv01) (SAT solver)
