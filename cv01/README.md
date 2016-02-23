@@ -222,6 +222,11 @@ do konjunktívnej normálnej formy:
 * Formulu z bodu 2 musíme „roznásobiť“, čím nám vznikne 27 disjunkcií s tromi
   premennými (z každej zátvorky jedna).
 
+*Poznámka: Vytvorte a odovzdajte súbor so „symbolickými“ (slovnými)
+premennými, nie číslami.  Keď budete chcieť pustiť SAT solver, môžete použiť
+priložený pythonovský program [`text2dimacs.py`](text2dimacs.py), ktorý vám
+takýto súbor „preloží“ na číselný vstup pre SAT solver.*
+
 ```
 c X je buď Rus alebo špión
 ¬RS ∨ ¬GS
