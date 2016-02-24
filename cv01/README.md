@@ -207,7 +207,7 @@ určili sme aj druhé).
 
 Teraz môžeme zapísať všetky podmienky zo zadania:
 
-1. X je buď Rus alebo špión: `(RS ⇔ ¬GS) ∧ (RM ⇔ ¬GM) ∧ (RE ⇔ ¬GE)`
+1. X je buď Rus alebo Nemec: `(RS ⇔ ¬GS) ∧ (RM ⇔ ¬GM) ∧ (RE ⇔ ¬GE)`
 2. práve jeden je Rus, ostatní dvaja sú nemci:
   `(RS ∧ GM ∧ GE) ∨ (GS ∧ RM ∧ GE) ∨ (GS ∧ GM ∧ RE)`
 3. každý Rus musí byť špión:
@@ -228,7 +228,7 @@ priložený pythonovský program [`text2dimacs.py`](text2dimacs.py), ktorý vám
 takýto súbor „preloží“ na číselný vstup pre SAT solver.*
 
 ```
-c X je buď Rus alebo špión
+c X je buď Rus alebo Nemec
 ¬RS ∨ ¬GS
 GS ∨ RS
 ¬RM ∨ ¬GM
